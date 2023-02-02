@@ -76,6 +76,7 @@
 		852C215B298B30AA00175F31 /* dock51.woff in Resources */ = {isa = PBXBuildFile; fileRef = 852C2125298B30AA00175F31 /* dock51.woff */; };
 		852C215C298B30AA00175F31 /* dock51.woff2 in Resources */ = {isa = PBXBuildFile; fileRef = 852C2126298B30AA00175F31 /* dock51.woff2 */; };
 		852C215D298B30AA00175F31 /* Dock51.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 852C2127298B30AA00175F31 /* Dock51.ttf */; };
+		852C2160298B327100175F31 /* CollisionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C215F298B327100175F31 /* CollisionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -149,6 +150,7 @@
 		852C2125298B30AA00175F31 /* dock51.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff; sourceTree = "<group>"; };
 		852C2126298B30AA00175F31 /* dock51.woff2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dock51.woff2; sourceTree = "<group>"; };
 		852C2127298B30AA00175F31 /* Dock51.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dock51.ttf; sourceTree = "<group>"; };
+		852C215F298B327100175F31 /* CollisionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollisionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		852C20C5298B307500175F31 /* MAPD724-W2023-ICE 3 */ = {
 			isa = PBXGroup;
 			children = (
+				852C215E298B324E00175F31 /* Managers */,
 				852C20ED298B30AA00175F31 /* Assets */,
 				852C20DD298B30A500175F31 /* Core */,
 				852C20E1298B30A500175F31 /* GameObjects */,
@@ -308,6 +311,14 @@
 				852C2127298B30AA00175F31 /* Dock51.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		852C215E298B324E00175F31 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				852C215F298B327100175F31 /* CollisionManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +451,7 @@
 				852C20CD298B307500175F31 /* GameScene.swift in Sources */,
 				852C20E6298B30A500175F31 /* GameProtocol.swift in Sources */,
 				852C20CF298B307500175F31 /* GameViewController.swift in Sources */,
+				852C2160298B327100175F31 /* CollisionManager.swift in Sources */,
 				852C20E9298B30A500175F31 /* Island.swift in Sources */,
 				852C20EB298B30A500175F31 /* Ocean.swift in Sources */,
 				852C20E8298B30A500175F31 /* Layer.swift in Sources */,
