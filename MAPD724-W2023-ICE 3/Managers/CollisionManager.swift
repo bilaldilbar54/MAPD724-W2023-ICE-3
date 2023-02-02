@@ -32,10 +32,10 @@ class CollisionManager
                 //If object2 is not already colliding
                 switch (object2.name) {
                 case "island":
-                    print("Colliding with island")
+                    scene.run(SKAction.playSoundFileNamed("yay", waitForCompletion: false))
                     break
                 case "cloud":
-                    print("Colliding with cloud")
+                    scene.run(SKAction.playSoundFileNamed("thunder", waitForCompletion: false))
                     break
                 default:
                     break
