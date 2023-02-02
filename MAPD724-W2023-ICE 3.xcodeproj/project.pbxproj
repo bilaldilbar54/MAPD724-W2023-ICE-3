@@ -13,7 +13,6 @@
 		852C20CD298B307500175F31 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20CC298B307500175F31 /* GameScene.swift */; };
 		852C20CF298B307500175F31 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20CE298B307500175F31 /* GameViewController.swift */; };
 		852C20D2298B307500175F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852C20D0298B307500175F31 /* Main.storyboard */; };
-		852C20D4298B307500175F31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 852C20D3298B307500175F31 /* Assets.xcassets */; };
 		852C20D7298B307500175F31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 852C20D5298B307500175F31 /* LaunchScreen.storyboard */; };
 		852C20E6298B30A500175F31 /* GameProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20DE298B30A500175F31 /* GameProtocol.swift */; };
 		852C20E7298B30A500175F31 /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852C20DF298B30A500175F31 /* GameObject.swift */; };
@@ -87,7 +86,6 @@
 		852C20CC298B307500175F31 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		852C20CE298B307500175F31 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		852C20D1298B307500175F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		852C20D3298B307500175F31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		852C20D6298B307500175F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		852C20DE298B30A500175F31 /* GameProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameProtocol.swift; sourceTree = "<group>"; };
 		852C20DF298B30A500175F31 /* GameObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameObject.swift; sourceTree = "<group>"; };
@@ -193,7 +191,6 @@
 				852C20CC298B307500175F31 /* GameScene.swift */,
 				852C20CE298B307500175F31 /* GameViewController.swift */,
 				852C20D0298B307500175F31 /* Main.storyboard */,
-				852C20D3298B307500175F31 /* Assets.xcassets */,
 				852C20D5298B307500175F31 /* LaunchScreen.storyboard */,
 			);
 			path = "MAPD724-W2023-ICE 3";
@@ -420,7 +417,6 @@
 				852C2130298B30AA00175F31 /* clickMeButton.png in Resources */,
 				852C2138298B30AA00175F31 /* smallexplosion4.png in Resources */,
 				852C20C9298B307500175F31 /* GameScene.sks in Resources */,
-				852C20D4298B307500175F31 /* Assets.xcassets in Resources */,
 				852C213D298B30AA00175F31 /* coin06.png in Resources */,
 				852C2158298B30AA00175F31 /* textureAtlas.png in Resources */,
 				852C20D7298B307500175F31 /* LaunchScreen.storyboard in Resources */,
